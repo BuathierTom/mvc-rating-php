@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    color: brown;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #333;
+}
+  
+thead {
+    background-color: #343a40;
+    color: #fff;
+    text-transform: uppercase;
+}
+  
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5;
+    border: 1px solid #333;
+}
+  
+th {
+    font-weight: 700;
+}
+  
+tfoot {
+    font-weight: 700;
+}
+  
+td {
+    border-bottom: 1px solid #e9ecef;
+}
+  
+
+/* Css pour le bouton de suppression */
+a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    border-radius: 10%;
+    background: #d72121;
+    border: 6px solid #d72121;
+    margin: 0 30px;
+}

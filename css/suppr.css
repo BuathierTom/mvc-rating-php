@@ -1,0 +1,31 @@
+input {
+    background-color: #555a55;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input:hover {
+    background-color: #333;
+  }
+
+  div {
+    width: 400px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+  
