@@ -36,7 +36,7 @@ navigteur (balise <title>...</title>).
 ### 5. Création de la vue de la page d’accueil
 Ajoutez un fichier « home.php » dans le dossier « Views ». Ce script se contente de renseigner deux variables « title » avec « Home Page » et « content » avec « Ceci est ma page d’accueil » avant d’inclure le gabarit.
 
-A ce stade un appel correct de la page index : http://localhost/rating/index.php?controller=home devrait afficher correctement le titre et le contenu. Vérifiez le code source html dans le navigateur. Modifier le contenu pour créer un paragraphe ; utilisez ou créer pour cela la fonction « paragraphe » de votre bibliothèque « tags.lib.php »
+A ce stade un appel correct de la page index : http://localhost:8000/index.php?controller=home devrait afficher correctement le titre et le contenu. Vérifiez le code source html dans le navigateur. Modifier le contenu pour créer un paragraphe ; utilisez ou créer pour cela la fonction « paragraphe » de votre bibliothèque « tags.lib.php »
 
 
 ### 6. Création d’une vue « erreur »
